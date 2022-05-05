@@ -45,7 +45,7 @@ export function Footer_menu() {
          >
 
          <Box >
-            <Image objectFit='cover' src={'static/img/footer-menu/menu-1.png'} alt='Banner inicial' />
+            <Image objectFit='cover' src={"static/img/footer-menu/menu-1.png"} alt='Banner inicial' />
          </Box>
 
          <Text fontWeight='bold'> {footerTitle[0]} </Text>
@@ -63,7 +63,7 @@ export function Footer_menu() {
          >
 
          <Box >
-            <Image objectFit='cover' src={'static/img/footer-menu/menu-2.png'} alt='Banner inicial' />
+            <Image objectFit='cover' src={"static/img/footer-menu/menu-2.png"} alt='Banner inicial' />
          </Box>
 
          <Text fontWeight='bold'> {footerTitle[1]} </Text>
@@ -81,7 +81,7 @@ export function Footer_menu() {
          >
 
          <Box >
-            <Image objectFit='cover' src={'static/img/footer-menu/menu-3.png'} alt='Banner inicial' />
+            <Image objectFit='cover' src={"static/img/footer-menu/menu-3.png"} alt='Banner inicial' />
          </Box>
 
          <Text fontWeight='bold'> {footerTitle[2]} </Text>
@@ -99,7 +99,7 @@ export function Footer_menu() {
          >
 
          <Box >
-            <Image objectFit='cover' src={'static/img/footer-menu/menu-4.png'} alt='Banner inicial' />
+            <Image objectFit='cover' src={"static/img/footer-menu/menu-4.png"} alt='Banner inicial' />
          </Box>
 
          <Text fontWeight='bold'> {footerTitle[3]} </Text>
@@ -117,7 +117,7 @@ export function Footer_menu() {
          >
 
          <Box >
-            <Image objectFit='cover' src={'static/img/footer-menu/menu-5.png'} alt='Banner inicial' />
+            <Image objectFit='cover' src={"static/img/footer-menu/menu-5.png"} alt='Banner inicial' />
          </Box>
 
          <Text fontWeight='bold'> {footerTitle[4]} </Text>
@@ -143,7 +143,7 @@ export function Footer_menu() {
             >
 
             <Box >
-               <Image objectFit='cover' src={'static/img/footer-menu/menu-1.png'} alt='Banner inicial' />
+               <Image objectFit='cover' src={"static/img/footer-menu/menu-1.png"} alt='Banner inicial' />
             </Box>
 
             <Text fontWeight='bold'> {footerTitle[0]} </Text>
@@ -161,7 +161,7 @@ export function Footer_menu() {
          >
 
          <Box >
-            <Image objectFit='cover' src={'static/img/footer-menu/menu-2.png'} alt='Banner inicial' />
+            <Image objectFit='cover' src={"static/img/footer-menu/menu-2.png"} alt='Banner inicial' />
          </Box>
 
          <Text fontWeight='bold'> {footerTitle[1]} </Text>
@@ -179,7 +179,7 @@ export function Footer_menu() {
          >
 
          <Box >
-            <Image objectFit='cover' src={'static/img/footer-menu/menu-3.png'} alt='Banner inicial' />
+            <Image objectFit='cover' src={"static/img/footer-menu/menu-3.png"} alt='Banner inicial' />
          </Box>
 
          <Text fontWeight='bold'> {footerTitle[2]} </Text>
@@ -199,7 +199,7 @@ export function Footer_menu() {
             >
 
             <Box >
-               <Image objectFit='cover' maxH='153px' w='100%' src={'static/img/footer-menu/menu-4.png'} alt='Banner inicial' />
+               <Image objectFit='cover' maxH='153px' w='100%' src={"static/img/footer-menu/menu-4.png"} alt='Banner inicial' />
             </Box>
 
             <Text fontWeight='bold'> {footerTitle[3]} </Text>
@@ -217,7 +217,7 @@ export function Footer_menu() {
          >
 
          <Box >
-            <Image objectFit='cover' maxH='153px' w='100%' src={'static/img/footer-menu/menu-5.png'} alt='Banner inicial' />
+            <Image objectFit='cover' maxH='153px' w='100%' src={"static/img/footer-menu/menu-5.png"} alt='Banner inicial' />
          </Box>
 
          <Text fontWeight='bold'> {footerTitle[4]} </Text>
@@ -243,7 +243,7 @@ export function Footer_menu() {
             >
 
             <Box >
-               <Image objectFit='cover' src={'static/img/footer-menu/menu-1.png'} alt='Banner inicial' />
+               <Image objectFit='cover' src={"static/img/footer-menu/menu-1.png"} alt='Banner inicial' />
             </Box>
 
             <Text fontWeight='bold'> {footerTitle[0]} </Text>
@@ -261,7 +261,7 @@ export function Footer_menu() {
          >
 
             <Box >
-               <Image objectFit='cover' src={'static/img/footer-menu/menu-2.png'} alt='Banner inicial' />
+               <Image objectFit='cover' src={"static/img/footer-menu/menu-2.png"} alt='Banner inicial' />
             </Box>
 
             <Text fontWeight='bold'> {footerTitle[1]} </Text>
@@ -282,7 +282,7 @@ export function Footer_menu() {
             >
 
             <Box >
-               <Image objectFit='cover' src={'static/img/footer-menu/menu-3.png'} alt='Banner inicial' />
+               <Image objectFit='cover' src={"static/img/footer-menu/menu-3.png"} alt='Banner inicial' />
             </Box>
 
             <Text fontWeight='bold'> {footerTitle[2]} </Text>
@@ -300,7 +300,7 @@ export function Footer_menu() {
             >
 
             <Box >
-               <Image objectFit='cover' src={'static/img/footer-menu/menu-4.png'} alt='Banner inicial' />
+               <Image objectFit='cover' src={"static/img/footer-menu/menu-4.png"} alt='Banner inicial' />
             </Box>
 
             <Text fontWeight='bold'> {footerTitle[3]} </Text>
@@ -321,7 +321,7 @@ export function Footer_menu() {
             >
 
             <Box >
-               <Image objectFit='cover' maxH='153px' w='100%'  src={'static/img/footer-menu/menu-5.png'} alt='Banner inicial' />
+               <Image objectFit='cover' maxH='153px' w='100%'  src={"static/img/footer-menu/menu-5.png"} alt='Banner inicial' />
             </Box>
 
             <Text fontWeight='bold'> {footerTitle[4]} </Text>

@@ -40,7 +40,7 @@ export function Container_6() {
          templateRows='repeat(2, 1fr)'
          gap={5} textAlign='center' color='datBlue'>
             <GridItem colStart={1} colEnd={13} mt='auto' py={5} borderBottom='1px solid #55808c' >
-               <Image  src={'static/img/daquimica-logo.png'} maxW='50%' mx='auto' alt='Logo daquimica' />
+               <Image  src={"static/img/daquimica-logo.png"} maxW='50%' mx='auto' alt='Logo daquimica' />
             </GridItem>
 
             <GridItem colStart={1} colEnd={13} mt='50px'> 
@@ -110,7 +110,7 @@ export function Container_6() {
          gap={5} textAlign='center' color='datBlue'>
             <GridItem colStart={1} colEnd={6} mt='auto' >
 
-               <Image  src={'static/img/daquimica-logo.png'} maxW='100%' alt='Logo daquimica' />
+               <Image  src={"static/img/daquimica-logo.png"} maxW='100%' alt='Logo daquimica' />
             </GridItem>
 
             <GridItem colStart={6} colEnd={13} mt='auto'> 
@@ -181,7 +181,7 @@ export function Container_6() {
             gap={0} textAlign='center' color='datBlue'>
                <GridItem colStart={1} colEnd={3} mt='auto' >
 
-                  <Image  src={'static/img/daquimica-logo.png'} maxW={['100px','100px','100px','80%']} alt='Dan Abramov' />
+                  <Image  src={"static/img/daquimica-logo.png"} maxW={['100px','100px','100px','80%']} alt='Dan Abramov' />
                </GridItem>
 
                <GridItem colStart={3} colEnd={7} mt='auto'> 
