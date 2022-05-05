@@ -18,12 +18,12 @@ export function Navbar() {
 
          <GridItem colSpan={1} >
             <Image  src={"static/img/daquimica-logo.PNG"} maxW={['100px','100px','100px','100%']} alt='Dan Abramov' />
-            oie
+            oie aweres
          </GridItem>
 
          <GridItem colStart={2} colEnd={8} mt='auto' display={['none', 'none', 'none','GridItem']} >
             <GridItem mx='auto' mt='auto' pb={1} fontSize='1.1rem'>
-                  <Link _hover={{color: "teal.400"}} href='#'> Homoi  </Link>|
+                  <Link _hover={{color: "teal.400"}} href='#'> Home  </Link>|
                   <Link _hover={{color: "teal.400"}} href='#'> Sobre Nós  </Link>|
                   <Link _hover={{color: "teal.400"}} href='#'> Segmentos de Atuação </Link>|
                   <Link _hover={{color: "teal.400"}} href='#'> Nossos Serviços </Link>|
