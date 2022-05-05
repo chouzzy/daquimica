@@ -18,7 +18,6 @@ export function Navbar() {
 
          <GridItem colSpan={1} >
             <Image  src={"static/img/daquimica-logo.PNG"} maxW={['100px','100px','100px','100%']} alt='Dan Abramov' />
-            oie awerers
          </GridItem>
 
          <GridItem colStart={2} colEnd={8} mt='auto' display={['none', 'none', 'none','GridItem']} >
