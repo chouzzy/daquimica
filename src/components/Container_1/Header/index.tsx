@@ -85,7 +85,7 @@ export function Navbar() {
                align="left"
                fontSize='1.3rem'
             >
-               <Link _hover={{color: "teal.400"}} py={2} href='#'> Home  </Link>
+               <Link _hover={{color: "teal.400"}} py={2} href='#'> Homeeeeeeeeeeeeeee  </Link>
                <Link _hover={{color: "teal.400"}} py={2} href='#'> Sobre Nós  </Link>
                <Link _hover={{color: "teal.400"}} py={2} href='#'> Segmentos de Atuação </Link>
                <Link _hover={{color: "teal.400"}} py={2} href='#'> Nossos Serviços </Link>
