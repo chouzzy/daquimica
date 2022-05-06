@@ -45,7 +45,7 @@ export function Footer_menu() {
          >
 
          <Box >
-            <Image objectFit='cover' src={"static/img/footer-menu/menu-1.PNG"} alt='Banner inicial' />
+            <Image objectFit='cover' src={"static/img/footer-menu/time-1.png"} alt='Banner inicial' />
          </Box>
 
          <Text fontWeight='bold'> {footerTitle[0]} </Text>
@@ -158,7 +158,7 @@ export function Footer_menu() {
             >
 
             <Box >
-               <Image objectFit='cover' src={"static/img/footer-menu/menu-1.PNG"} alt='Banner inicial' />
+               <Image objectFit='cover' src={"static/img/footer-menu/time-1.png"} alt='Banner inicial' />
             </Box>
 
             <Text fontWeight='bold'> {footerTitle[0]} </Text>
@@ -275,7 +275,7 @@ export function Footer_menu() {
             >
 
             <Box >
-               <Image objectFit='cover' src={"static/img/footer-menu/menu-1.PNG"} alt='Banner inicial' />
+               <Image objectFit='cover' src={"static/img/footer-menu/time-1.png"} alt='Banner inicial' />
             </Box>
 
             <Text fontWeight='bold'> {footerTitle[0]} </Text>
