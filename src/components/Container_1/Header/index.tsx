@@ -1,4 +1,4 @@
-import { Box, Flex, Grid, GridItem, HStack, IconButton, Image, Link, SimpleGrid } from "@chakra-ui/react";
+import { Box, Flex, Grid, GridItem, HStack, IconButton, Image, Link, SimpleGrid, VStack } from "@chakra-ui/react";
 import {Link as Slink} from 'react-scroll'
 import { useState } from "react";
 import { BsInstagram } from "react-icons/bs";
@@ -107,11 +107,23 @@ export function Navbar() {
                align="left"
                fontSize='1.3rem'
             >
-               <Link _hover={{color: "teal.400"}} py={2} href=''> Home  </Link>
-               <Link _hover={{color: "teal.400"}} py={2} href=''> Sobre Nós  </Link>
-               <Link _hover={{color: "teal.400"}} py={2} href=''> Segmentos de Atuação </Link>
-               <Link _hover={{color: "teal.400"}} py={2} href=''> Nossos Serviços </Link>
-               <Link _hover={{color: "teal.400"}} py={2} href=''> Fale Conosco </Link>
+               <VStack>
+                  <Slink to="#Home" spy={true} smooth={true} offset={0} duration={500}>
+                        <Box cursor='pointer' _hover={{color: "teal.400"}} flex='1'>Home </Box>
+                  </Slink>
+                  <Slink to="#sobre" spy={true} smooth={true} offset={0} duration={500}>
+                        <Box cursor='pointer' _hover={{color: "teal.400"}} flex='1'>Sobre Nós </Box>
+                  </Slink>
+                  <Slink to="#segmentos" spy={true} smooth={true} offset={0} duration={500}>
+                        <Box cursor='pointer' _hover={{color: "teal.400"}} flex='1'>Segmentos de Atuação</Box>
+                  </Slink>
+                  <Slink to="#serviços" spy={true} smooth={true} offset={0} duration={500}>
+                        <Box cursor='pointer' _hover={{color: "teal.400"}} flex='1'>Nossos Serviços</Box>
+                  </Slink>
+                  <Slink to="#footer" spy={true} smooth={true} offset={0} duration={500}>
+                        <Box cursor='pointer' _hover={{color: "teal.400"}} flex='1'>Fale Conosco</Box>
+                  </Slink>
+               </VStack>
 
                <SimpleGrid mx='auto' w='9rem' columns={4} py={3} mt='auto' fontSize='1.6rem'>
                   <Link _hover={{color: "teal.400"}} mt='auto' href=''> <BsInstagram /> </Link>

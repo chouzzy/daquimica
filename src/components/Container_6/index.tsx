@@ -104,7 +104,6 @@ export function Container_6() {
          }
          {isTabletVersion?
          <>
-         tablet
          <Grid w='90vw' py='5' alignItems='baseline' borderBottom='1px solid #55808c'
          templateRows='repeat(2, 1fr)'
          gap={5} textAlign='center' color='datBlue'>
