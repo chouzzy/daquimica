@@ -33,7 +33,7 @@ export function Container_6() {
     })
 
    return (
-      <Container maxW='100vw' color='datBlue' bg='white' p='0' m='0' centerContent>
+      <Container id='#footer' maxW='100vw' color='datBlue' bg='white' p='0' m='0' centerContent>
 
          {isMobileVersion?
          <Grid w='90vw' py='5' alignItems='baseline' borderBottom='1px solid #55808c'
@@ -185,16 +185,17 @@ export function Container_6() {
                </GridItem>
 
                <GridItem colStart={3} colEnd={7} mt='auto'> 
-                  <SimpleGrid templateRows='repeat(2, 1fr)'>
+                  <SimpleGrid >
                      <SimpleGrid mr='auto' textAlign='left'>
                         <Box  fontSize='1.4rem' fontWeight='600'> Endereço/ Telefone </Box>
                         <Box  fontSize='1rem' fontWeight='400'> 
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam 
-                        nonummy nibh euismod tincidunt 
-                        ut laoreet dolore mag
+                           <Text py={1}> (16) 99179-0291 </Text>
+                           <Text py={1}> Comercial@blendquimica.com.br </Text>
+                           <Text py={1}> Rua Domiciano Leite de Assis, 380 - Distrito industrial Adib Rassi </Text>
+                           <Text py={1}> CEP: 14680-000 - Jardinópolis-SP </Text>
                         </Box>
                      </SimpleGrid >
-                     <SimpleGrid mr='auto' w='9rem' columns={4}  fontSize='1.6rem'>
+                     <SimpleGrid mt='15%' mr='auto' w='9rem' columns={4}  fontSize='1.6rem'>
                         <Link _hover={{color: "teal.400"}} mt='auto' href='#'> <BsInstagram /> </Link>
                         <Link  _hover={{color: "teal.400"}} mt='auto' href='#'> <ImFacebook2/> </Link>
                         <Link  _hover={{color: "teal.400"}} mt='auto' href='#'> <SiLinkedin/> </Link>

@@ -1,5 +1,5 @@
 import { Box, Image, SimpleGrid, StackDivider, Text, useBreakpointValue, VStack } from "@chakra-ui/react";
-
+import {Link as Slink} from 'react-scroll'
 
 export function Footer_menu() { 
 
@@ -52,7 +52,10 @@ export function Footer_menu() {
          <Text fontSize='0.9rem'>
             {footerDescription[0]}
          </Text>
-         <Text fontWeight='bold'> Saiba mais...</Text>
+
+         <Slink activeClass="active" to="#sobre" spy={true} smooth={true} offset={0} duration={500}>
+            <Text cursor='pointer' fontWeight='bold'> Saiba mais...</Text>
+         </Slink>
 
          </VStack>
 
@@ -70,7 +73,10 @@ export function Footer_menu() {
          <Text fontSize='0.9rem'>
             {footerDescription[1]}
          </Text>
-         <Text fontWeight='bold'> Saiba mais...</Text>
+
+         <Slink activeClass="active" to="#segmentos" spy={true} smooth={true} offset={0} duration={500}>
+            <Text cursor='pointer' fontWeight='bold'> Saiba mais...</Text>
+         </Slink>
          
          </VStack>
 
@@ -88,7 +94,10 @@ export function Footer_menu() {
          <Text fontSize='0.9rem'>
             {footerDescription[2]}
          </Text>
-         <Text fontWeight='bold'> Saiba mais...</Text>
+
+         <Slink activeClass="active" to="#serviços" spy={true} smooth={true} offset={0} duration={500}>
+            <Text cursor='pointer' fontWeight='bold'> Saiba mais...</Text>
+         </Slink>
          
          </VStack>
 
@@ -106,7 +115,10 @@ export function Footer_menu() {
          <Text fontSize='0.9rem'>
             {footerDescription[3]}
          </Text>
-         <Text fontWeight='bold'> Saiba mais...</Text>
+
+         <Slink activeClass="active" to="#projetos" spy={true} smooth={true} offset={0} duration={500}>
+            <Text cursor='pointer' fontWeight='bold'> Saiba mais...</Text>
+         </Slink>
          
          </VStack>
 
@@ -124,7 +136,10 @@ export function Footer_menu() {
          <Text fontSize='0.9rem'>
             {footerDescription[4]}
          </Text>
-         <Text fontWeight='bold'> Saiba mais...</Text>
+
+         <Slink activeClass="active" to="#Home" spy={true} smooth={true} offset={0} duration={500}>
+            <Text cursor='pointer' fontWeight='bold'> Saiba mais...</Text>
+         </Slink>
          
          </VStack>
       </SimpleGrid>
@@ -150,7 +165,11 @@ export function Footer_menu() {
             <Text fontSize='0.9rem'>
                {footerDescription[0]}
             </Text>
-            <Text fontWeight='bold'> Saiba mais...</Text>
+
+         <Slink activeClass="active" to="#Home" spy={true} smooth={true} offset={0} duration={500}>
+            
+               <Text cursor='pointer' fontWeight='bold'> Saiba mais...</Text>
+         </Slink>
 
          </VStack>
 
@@ -168,7 +187,10 @@ export function Footer_menu() {
          <Text fontSize='0.9rem'>
             {footerDescription[1]}
          </Text>
-         <Text fontWeight='bold'> Saiba mais...</Text>
+
+         <Slink activeClass="active" to="#Home" spy={true} smooth={true} offset={0} duration={500}>
+            <Text cursor='pointer' fontWeight='bold'> Saiba mais...</Text>
+         </Slink>
          
          </VStack>
 
@@ -186,7 +208,10 @@ export function Footer_menu() {
          <Text fontSize='0.9rem'>
             {footerDescription[2]}
          </Text>
-         <Text fontWeight='bold'> Saiba mais...</Text>
+
+         <Slink activeClass="active" to="#Home" spy={true} smooth={true} offset={0} duration={500}>
+            <Text cursor='pointer' fontWeight='bold'> Saiba mais...</Text>
+         </Slink>
          
          </VStack>
       </SimpleGrid>
@@ -206,7 +231,11 @@ export function Footer_menu() {
             <Text fontSize='0.9rem'>
                {footerDescription[3]}
             </Text>
-            <Text fontWeight='bold'> Saiba mais...</Text>
+
+         <Slink activeClass="active" to="#Home" spy={true} smooth={true} offset={0} duration={500}>
+            
+               <Text cursor='pointer' fontWeight='bold'> Saiba mais...</Text>
+         </Slink>
             
          </VStack>
 
@@ -224,7 +253,10 @@ export function Footer_menu() {
          <Text fontSize='0.9rem'>
             {footerDescription[4]}
          </Text>
-         <Text fontWeight='bold'> Saiba mais...</Text>
+
+         <Slink activeClass="active" to="#Home" spy={true} smooth={true} offset={0} duration={500}>
+            <Text cursor='pointer' fontWeight='bold'> Saiba mais...</Text>
+         </Slink>
          
          </VStack>
       </SimpleGrid>
@@ -250,7 +282,11 @@ export function Footer_menu() {
             <Text fontSize='0.9rem'>
                {footerDescription[0]}
             </Text>
-            <Text fontWeight='bold'> Saiba mais...</Text>
+
+         <Slink activeClass="active" to="#Home" spy={true} smooth={true} offset={0} duration={500}>
+            
+               <Text cursor='pointer' fontWeight='bold'> Saiba mais...</Text>
+         </Slink>
 
          </VStack>
 
@@ -268,7 +304,11 @@ export function Footer_menu() {
             <Text fontSize='0.9rem'>
                {footerDescription[1]}
             </Text>
-            <Text fontWeight='bold'> Saiba mais...</Text>
+
+         <Slink activeClass="active" to="#Home" spy={true} smooth={true} offset={0} duration={500}>
+            
+               <Text cursor='pointer' fontWeight='bold'> Saiba mais...</Text>
+         </Slink>
          
          </VStack>
       </SimpleGrid>
@@ -289,7 +329,11 @@ export function Footer_menu() {
             <Text fontSize='0.9rem'>
                {footerDescription[2]}
             </Text>
-            <Text fontWeight='bold'> Saiba mais...</Text>
+
+         <Slink activeClass="active" to="#Home" spy={true} smooth={true} offset={0} duration={500}>
+            
+               <Text cursor='pointer' fontWeight='bold'> Saiba mais...</Text>
+         </Slink>
             
          </VStack>
 
@@ -307,7 +351,11 @@ export function Footer_menu() {
             <Text fontSize='0.9rem'>
                {footerDescription[3]}
             </Text>
-            <Text fontWeight='bold'> Saiba mais...</Text>
+
+         <Slink activeClass="active" to="#Home" spy={true} smooth={true} offset={0} duration={500}>
+            
+               <Text cursor='pointer' fontWeight='bold'> Saiba mais...</Text>
+         </Slink>
             
          </VStack>
       </SimpleGrid>
@@ -328,7 +376,11 @@ export function Footer_menu() {
             <Text fontSize='0.9rem'>
                {footerDescription[4]}
             </Text>
-            <Text fontWeight='bold'> Saiba mais...</Text>
+
+         <Slink activeClass="active" to="#Home" spy={true} smooth={true} offset={0} duration={500}>
+            
+               <Text cursor='pointer' fontWeight='bold'> Saiba mais...</Text>
+         </Slink>
             
          </VStack>
       </SimpleGrid>

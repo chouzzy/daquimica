@@ -1,4 +1,5 @@
 import { Box, Container, Flex, Grid, GridItem, Image, SimpleGrid, Text, useBreakpointValue, VStack } from "@chakra-ui/react";
+import {Link as Slink} from 'react-scroll'
 import { BsArrowUpCircle } from "react-icons/bs";
 
 export function Container_3() { 
@@ -11,8 +12,9 @@ export function Container_3() {
       xl: false
     })
 
+   const segmentos = 'Com o nosso time P&D e nossa linha de produção, estamos preparados para desenvolver e produzir formulações personalizadas com complexidades e formas diferentes.'
    return (
-      <Container maxW='100vw' minH='100vh' color='white' bg='datGreen' p='0' m='0' centerContent>
+      <Container id='#segmentos' maxW='100vw' minH='100vh' color='white' bg='datGreen' p='0' m='0' centerContent>
          <VStack
          py={5}
          my={5}
@@ -25,12 +27,7 @@ export function Container_3() {
             <Box minW='90vw' h='50px' fontSize='1.5rem' fontWeight='600'> Segmentos de atuação </Box>
 
                <Box fontSize='1.2rem' maxW={['85vw','80vw','75vw', '70vw']}>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut 
-                  laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation 
-                  ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in 
-                  hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et 
-                  accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait 
-                  nulla facilisi.
+                  {segmentos}
                </Box>
                <Box>
                   <Text fontSize={['2.6rem','3rem']} mb='auto'>Hair Care</Text>
@@ -39,9 +36,19 @@ export function Container_3() {
                   <Text fontSize={['2.6rem','3rem']} mb='auto'>Dermocosmetics</Text>
                </Box>
                </VStack>
-            <Flex mr='auto' p={4} mt='auto' fontSize='1.2rem' alignItems='center'> 
-               <BsArrowUpCircle fontSize='2rem' />  <Text px={2} pt={1} mb='auto'>Voltar para o topo</Text>
-            </Flex>
+               <Flex mr='auto'  mt='auto' p={4} fontSize='1.2rem' alignItems='center'> 
+
+                  <Slink activeClass="active" to="#Home" spy={true} smooth={true} offset={0} duration={500}>
+                     <BsArrowUpCircle cursor='pointer' fontSize='2rem' />  
+                  </Slink>
+
+                  <Slink activeClass="active" to="#Home" spy={true} smooth={true} offset={0} duration={500}>
+                     <Text cursor='pointer' px={2} pt={1} mb='auto'>
+                        Voltar para o topo
+                     </Text>
+                  </Slink>
+
+               </Flex>
       </Container> 
    )
 }
