@@ -87,7 +87,7 @@ export function Footer_menu() {
          >
 
          <Box >
-            <Image objectFit='cover' src={"static/img/footer-menu/menu-3.PNG"} alt='Banner inicial' />
+            <Image objectFit='cover' src={"static/img/footer-menu/atendentes.png"} alt='Banner inicial' />
          </Box>
 
          <Text fontWeight='bold'> {footerTitle[2]} </Text>
@@ -108,7 +108,7 @@ export function Footer_menu() {
          >
 
          <Box >
-            <Image objectFit='cover' src={"static/img/footer-menu/menu-4.PNG"} alt='Banner inicial' />
+            <Image objectFit='cover' src={"static/img/footer-menu/cientista.png"} alt='Banner inicial' />
          </Box>
 
          <Text fontWeight='bold'> {footerTitle[3]} </Text>
@@ -201,7 +201,7 @@ export function Footer_menu() {
          >
 
          <Box >
-            <Image objectFit='cover' src={"static/img/footer-menu/menu-3.PNG"} alt='Banner inicial' />
+            <Image objectFit='cover' src={"static/img/footer-menu/atendentes.png"} alt='Banner inicial' />
          </Box>
 
          <Text fontWeight='bold'> {footerTitle[2]} </Text>
@@ -224,7 +224,7 @@ export function Footer_menu() {
             >
 
             <Box >
-               <Image objectFit='cover' maxH='153px' w='100%' src={"static/img/footer-menu/menu-4.PNG"} alt='Banner inicial' />
+               <Image objectFit='cover' maxH='153px' w='100%' src={"static/img/footer-menu/cientista.png"} alt='Banner inicial' />
             </Box>
 
             <Text fontWeight='bold'> {footerTitle[3]} </Text>
@@ -322,7 +322,7 @@ export function Footer_menu() {
             >
 
             <Box >
-               <Image objectFit='cover' src={"static/img/footer-menu/menu-3.PNG"} alt='Banner inicial' />
+               <Image objectFit='cover' src={"static/img/footer-menu/atendentes.png"} alt='Banner inicial' />
             </Box>
 
             <Text fontWeight='bold'> {footerTitle[2]} </Text>
@@ -344,7 +344,7 @@ export function Footer_menu() {
             >
 
             <Box >
-               <Image objectFit='cover' src={"static/img/footer-menu/menu-4.PNG"} alt='Banner inicial' />
+               <Image objectFit='cover' src={"static/img/footer-menu/cientista.png"} alt='Banner inicial' />
             </Box>
 
             <Text fontWeight='bold'> {footerTitle[3]} </Text>

@@ -31,11 +31,11 @@ export function Container_2() {
                </Box>
             {isMobileVersion? 
                <SimpleGrid w='90vw' textAlign='center'  columns={1} spacingX={5} spacingY='40px'>
-                   <Image borderRadius='5px' maxW='90vw' mx='auto' my='50px' src={"static/img/footer-menu/menu-1.PNG"} alt='Banner inicial' />
+                   <Image borderRadius='5px' maxW='90vw' mx='auto' my='50px' src={"static/img/footer-menu/atendente-1.png"} alt='Banner inicial' />
                </SimpleGrid>
             :
                <SimpleGrid w='90vw' textAlign='center'  columns={3} spacingX={5} spacingY='40px'>
-                  <Image borderRadius='5px'  my='50px' src={"static/img/footer-menu/menu-2.PNG"} alt='Banner inicial' />
+                  <Image borderRadius='5px'  my='50px' src={"static/img/footer-menu/atendente-1.png"} alt='Banner inicial' />
                   <Image borderRadius='5px'  my='50px' src={"static/img/footer-menu/menu-3.PNG"} alt='Banner inicial' />
                   <Image borderRadius='5px'  my='50px' src={"static/img/footer-menu/menu-1.PNG"} alt='Banner inicial' />
                </SimpleGrid>
