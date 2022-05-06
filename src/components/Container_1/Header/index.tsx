@@ -109,19 +109,19 @@ export function Navbar() {
             >
                <VStack>
                   <Slink to="#Home" spy={true} smooth={true} offset={0} duration={500}>
-                        <Box cursor='pointer' _hover={{color: "teal.400"}} flex='1'>Home </Box>
+                        <Box cursor='pointer' _hover={{color: "teal.400"}} flex='1' onClick={() => changeDisplay('none')}>Home </Box>
                   </Slink>
                   <Slink to="#sobre" spy={true} smooth={true} offset={0} duration={500}>
-                        <Box cursor='pointer' _hover={{color: "teal.400"}} flex='1'>Sobre Nós </Box>
+                        <Box cursor='pointer' _hover={{color: "teal.400"}} flex='1' onClick={() => changeDisplay('none')}>Sobre Nós </Box>
                   </Slink>
                   <Slink to="#segmentos" spy={true} smooth={true} offset={0} duration={500}>
-                        <Box cursor='pointer' _hover={{color: "teal.400"}} flex='1'>Segmentos de Atuação</Box>
+                        <Box cursor='pointer' _hover={{color: "teal.400"}} flex='1' onClick={() => changeDisplay('none')}>Segmentos de Atuação</Box>
                   </Slink>
                   <Slink to="#serviços" spy={true} smooth={true} offset={0} duration={500}>
-                        <Box cursor='pointer' _hover={{color: "teal.400"}} flex='1'>Nossos Serviços</Box>
+                        <Box cursor='pointer' _hover={{color: "teal.400"}} flex='1' onClick={() => changeDisplay('none')}>Nossos Serviços</Box>
                   </Slink>
                   <Slink to="#footer" spy={true} smooth={true} offset={0} duration={500}>
-                        <Box cursor='pointer' _hover={{color: "teal.400"}} flex='1'>Fale Conosco</Box>
+                        <Box cursor='pointer' _hover={{color: "teal.400"}} flex='1' onClick={() => changeDisplay('none')}>Fale Conosco</Box>
                   </Slink>
                </VStack>
 
