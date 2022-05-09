@@ -55,10 +55,10 @@ export function Navbar() {
          <GridItem mt='auto' display={['none', 'none', 'none','GridItem']} >
 
             <SimpleGrid ml='auto' w='9rem' columns={4} pb={3} mt='auto' fontSize='1.6rem'>
-               <Link _hover={{color: "teal.400"}} mt='auto' href=''> <BsInstagram /> </Link>
-               <Link  _hover={{color: "teal.400"}} mt='auto' href=''> <ImFacebook2/> </Link>
-               <Link  _hover={{color: "teal.400"}} mt='auto' href=''> <SiLinkedin/> </Link>
-               <Link _hover={{fontSize:"3rem", transition:'200ms'}} color='#6cd474'fontSize='2.8rem' href='#'> <RiWhatsappFill/> </Link>
+               <Link _hover={{color: "teal.400"}} mt='auto' href='https://www.instagram.com/farmaciadaterra/'> <BsInstagram /> </Link>
+               <Link  _hover={{color: "teal.400"}} mt='auto' href='https://www.facebook.com/daterraoficial?ref=hl'> <ImFacebook2/> </Link>
+               <Link  _hover={{color: "teal.400"}} mt='auto' href='https://br.linkedin.com/company/daterra---farm%C3%A1cia-de-manipula%C3%A7%C3%A3o-e-cosm%C3%A9ticos'> <SiLinkedin/> </Link>
+               <Link _hover={{fontSize:"3rem", transition:'200ms'}} color='#6cd474'fontSize='2.8rem' href='https://wa.me/5516992469499'> <RiWhatsappFill/> </Link>
                {/* <Image w='70px' src='images/zap.png' alt='Dan Abramov' /> */}
             </SimpleGrid >
          </GridItem>
@@ -126,10 +126,10 @@ export function Navbar() {
                </VStack>
 
                <SimpleGrid mx='auto' w='9rem' columns={4} py={3} mt='auto' fontSize='1.6rem'>
-                  <Link _hover={{color: "teal.400"}} mt='auto' href=''> <BsInstagram /> </Link>
-                  <Link  _hover={{color: "teal.400"}} mt='auto' href=''> <ImFacebook2/> </Link>
-                  <Link  _hover={{color: "teal.400"}} mt='auto' href=''> <SiLinkedin/> </Link>
-                  <Link color='#6cd474'fontSize='1.6rem' href='#'> <RiWhatsappFill/> </Link>
+                  <Link _hover={{color: "teal.400"}} mt='auto' href='https://www.instagram.com/farmaciadaterra/'> <BsInstagram /> </Link>
+                  <Link  _hover={{color: "teal.400"}} mt='auto' href='https://www.facebook.com/daterraoficial?ref=hl'> <ImFacebook2/> </Link>
+                  <Link  _hover={{color: "teal.400"}} mt='auto' href='https://br.linkedin.com/company/daterra---farm%C3%A1cia-de-manipula%C3%A7%C3%A3o-e-cosm%C3%A9ticos'> <SiLinkedin/> </Link>
+                  <Link color='#6cd474'fontSize='1.6rem' href='https://wa.me/5516992469499'> <RiWhatsappFill/> </Link>
                   {/* <Image w='70px' src='images/zap.png' alt='Dan Abramov' /> */}
                </SimpleGrid >
             </Flex>
