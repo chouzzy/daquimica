@@ -40,11 +40,11 @@ export function Footer_menu() {
       {isDesktopVersion?
       <>
       <SimpleGrid w='90vw' textAlign='center' color='datBlue' columns={5} my={3} spacingX={5} >
-         <HomeFooter title={footerTitle[0]} description={footerDescription[0]} image={"static/img/footer-menu/time-1.png"}/>
-         <HomeFooter title={footerTitle[1]} description={footerDescription[1]} image={"static/img/footer-menu/menu-2.PNG"}/>
-         <HomeFooter title={footerTitle[2]} description={footerDescription[2]} image={"static/img/footer-menu/atendentes.png"}/>
-         <HomeFooter title={footerTitle[3]} description={footerDescription[3]} image={"static/img/footer-menu/cientista.png"}/>
-         <HomeFooter title={footerTitle[4]} description={footerDescription[4]} image={"static/img/footer-menu/menu-5.PNG"}/>
+         <HomeFooter title={footerTitle[0]} scrollTag="#sobre" description={footerDescription[0]} image={"static/img/footer-menu/time-1.png"}/>
+         <HomeFooter title={footerTitle[1]} scrollTag="#segmentos" description={footerDescription[1]} image={"static/img/footer-menu/menu-2.PNG"}/>
+         <HomeFooter title={footerTitle[2]} scrollTag="#serviços" description={footerDescription[2]} image={"static/img/footer-menu/atendentes.png"}/>
+         <HomeFooter title={footerTitle[3]} scrollTag="#projetos" description={footerDescription[3]} image={"static/img/footer-menu/cientista.png"}/>
+         <HomeFooter title={footerTitle[4]} scrollTag="#Home" description={footerDescription[4]} image={"static/img/footer-menu/menu-5.PNG"}/>
       </SimpleGrid>
       </>
          :
@@ -54,15 +54,15 @@ export function Footer_menu() {
       <>
       {/* Primeira fila */}
       <SimpleGrid w='90vw' textAlign='center' color='datBlue' columns={3} my={3} spacingX={5} >
-         <HomeFooter title={footerTitle[0]} description={footerDescription[0]} image={"static/img/footer-menu/time-1.png"}/>
-         <HomeFooter title={footerTitle[1]} description={footerDescription[1]} image={"static/img/footer-menu/menu-2.PNG"}/>
-         <HomeFooter title={footerTitle[2]} description={footerDescription[2]} image={"static/img/footer-menu/atendentes.png"}/>
+         <HomeFooter title={footerTitle[0]} scrollTag="#sobre" description={footerDescription[0]} image={"static/img/footer-menu/time-1.png"}/>
+         <HomeFooter title={footerTitle[1]} scrollTag="#segmentos" description={footerDescription[1]} image={"static/img/footer-menu/menu-2.PNG"}/>
+         <HomeFooter title={footerTitle[2]} scrollTag="#serviços" description={footerDescription[2]} image={"static/img/footer-menu/atendentes.png"}/>
       </SimpleGrid>
       {/* Segunda fila */}
       <SimpleGrid w='90vw' textAlign='center' color='datBlue' columns={2} my={3} spacingX={5} >
          
-         <HomeFooter title={footerTitle[3]} description={footerDescription[3]} image={"static/img/footer-menu/cientista.png"}/>
-         <HomeFooter title={footerTitle[4]} description={footerDescription[4]} image={"static/img/footer-menu/menu-5.PNG"}/>
+         <HomeFooter title={footerTitle[3]} scrollTag="#projetos" description={footerDescription[3]} image={"static/img/footer-menu/cientista.png"}/>
+         <HomeFooter title={footerTitle[4]} scrollTag="#Home" description={footerDescription[4]} image={"static/img/footer-menu/menu-5.PNG"}/>
       </SimpleGrid>
       </>
          :
@@ -72,19 +72,19 @@ export function Footer_menu() {
       <>
       {/* Primeira fila */}
       <SimpleGrid w='90vw' textAlign='center' color='datBlue' columns={2} my={3} spacingX={5} >
-         <HomeFooter title={footerTitle[0]} description={footerDescription[0]} image={"static/img/footer-menu/time-1.png"}/>
-         <HomeFooter title={footerTitle[1]} description={footerDescription[1]} image={"static/img/footer-menu/menu-2.PNG"}/>
+         <HomeFooter title={footerTitle[0]} scrollTag="#sobre" description={footerDescription[0]} image={"static/img/footer-menu/time-1.png"}/>
+         <HomeFooter title={footerTitle[1]} scrollTag="#segmentos" description={footerDescription[1]} image={"static/img/footer-menu/menu-2.PNG"}/>
       </SimpleGrid>
 
       {/* Segunda fila */}
       <SimpleGrid w='90vw' textAlign='center' color='datBlue' columns={2} my={3} spacingX={5} >
-         <HomeFooter title={footerTitle[2]} description={footerDescription[2]} image={"static/img/footer-menu/atendentes.png"}/>
-         <HomeFooter title={footerTitle[3]} description={footerDescription[3]} image={"static/img/footer-menu/cientista.png"}/>
+         <HomeFooter title={footerTitle[2]} scrollTag="#serviços" description={footerDescription[2]} image={"static/img/footer-menu/atendentes.png"}/>
+         <HomeFooter title={footerTitle[3]} scrollTag="#projetos" description={footerDescription[3]} image={"static/img/footer-menu/cientista.png"}/>
       </SimpleGrid>
 
       {/* Terceira fila */}
       <SimpleGrid w='90vw' textAlign='center' color='datBlue' columns={1} my={3} spacingX={5} >
-         <HomeFooter title={footerTitle[4]} description={footerDescription[4]} image={"static/img/footer-menu/menu-5.PNG"}/>
+         <HomeFooter title={footerTitle[4]} scrollTag="#Home" description={footerDescription[4]} image={"static/img/footer-menu/menu-5.PNG"}/>
       </SimpleGrid>
       </>
          :

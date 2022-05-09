@@ -1,7 +1,7 @@
-import { Box, Button, Image, Modal, ModalBody, ModalCloseButton, ModalContent, ModalFooter, ModalHeader, ModalOverlay, Text, useBreakpointValue, useDisclosure, VStack } from "@chakra-ui/react";
+import { Box, Button, Image, Modal, ModalBody, ModalCloseButton, ModalContent, ModalFooter, ModalHeader, ModalOverlay, Slide, Text, useBreakpointValue, useDisclosure, VStack } from "@chakra-ui/react";
 import {Link as Slink} from 'react-scroll'
 
-export function HomeFooter(footerContent) { 
+export function Container_2_Modal(modalContent) { 
 
    const isDesktopVersion = useBreakpointValue( { 
       base: false,
@@ -13,49 +13,34 @@ export function HomeFooter(footerContent) {
    
    const { isOpen, onOpen, onClose } = useDisclosure()
    return (
-      <VStack
-      spacing={1}
-      align='stretch'
-      textAlign='left'
-      >
+      
+         <> 
+            <Image onClick={onOpen} cursor='pointer'  _hover={{border: "1px solid #00000010"}} borderRadius='5px'  my='50px' src={modalContent.image} alt='Banner inicial' />
 
-         <Box >
-            <Image onClick={onOpen} cursor='pointer' objectFit='cover' src={footerContent.image} alt='Banner inicial' />
-         </Box>
+            {isDesktopVersion?
 
-         <Text fontWeight='bold'>{footerContent.title} </Text>
-         <Text fontSize='0.9rem'>
-            {footerContent.description}
-         </Text>
+               <Modal closeOnOverlayClick={true} size='full' isOpen={isOpen} onClose={onClose}>
+                  <ModalOverlay />
+                  <ModalContent m='80px' border='1px solid #00000040'  backgroundColor='#3397da10'>
+                     <ModalCloseButton  color='white' />
+                     <ModalBody>
+                        <Image borderRadius={5}  mx='auto' objectFit='cover' src={modalContent.image} alt='Banner inicial' />
+                     </ModalBody>
+                  </ModalContent>
+               </Modal>
+            :
+            <Modal closeOnOverlayClick={true} size='xl' isOpen={isOpen} onClose={onClose}>
+               <ModalOverlay />
+               <ModalContent my='auto' backgroundColor='#00000000'>
+                  <ModalCloseButton  color='white' />
+                  <ModalBody>
+                     <Image borderRadius={5} maxWidth='90%' mx='auto' objectFit='cover' src={modalContent.image} alt='Banner inicial' />
+                  </ModalBody>
+               </ModalContent>
+            </Modal>
+            }
+         </>
 
-         <Slink activeClass="active" to="#sobre" spy={true} smooth={true} offset={0} duration={500}>
-            <Text _hover={{color:'teal.400', transition:'300ms'}} cursor='pointer' fontWeight='bold'> Saiba mais...</Text>
-         </Slink>
-
-
-         {isDesktopVersion?
-         <Modal closeOnOverlayClick={true} size='full' isOpen={isOpen} onClose={onClose}>
-            <ModalOverlay />
-            <ModalContent m='80px' backgroundColor='#00000000'>
-               <ModalCloseButton color='white' />
-               <ModalBody>
-                  <Image borderRadius={5}  mx='auto' objectFit='cover' src={footerContent.image} alt='Banner inicial' />
-               </ModalBody>
-            </ModalContent>
-         </Modal>
-         :
-         <Modal closeOnOverlayClick={true} size='xl' isOpen={isOpen} onClose={onClose}>
-            <ModalOverlay />
-            <ModalContent my='auto' backgroundColor='#00000000'>
-               <ModalCloseButton  color='white' />
-               <ModalBody>
-                  <Image borderRadius={5} maxWidth='90%' mx='auto' objectFit='cover' src={footerContent.image} alt='Banner inicial' />
-               </ModalBody>
-            </ModalContent>
-         </Modal>
-         }
-
-      </VStack>
    )
 }
 

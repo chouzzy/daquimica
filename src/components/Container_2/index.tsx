@@ -1,6 +1,7 @@
 import { Box, Container, Flex, Grid, GridItem, Image, SimpleGrid, Text, useBreakpointValue, VStack } from "@chakra-ui/react";
 import { BsArrowUpCircle } from "react-icons/bs";
 import {Link as Slink} from 'react-scroll'
+import { Container_2_Modal } from "./Modal";
 
 export function Container_2() { 
 
@@ -31,13 +32,13 @@ export function Container_2() {
                </Box>
             {isMobileVersion? 
                <SimpleGrid w='90vw' textAlign='center'  columns={1} spacingX={5} spacingY='40px'>
-                   <Image borderRadius='5px' maxW='90vw' mx='auto' my='50px' src={"static/img/footer-menu/cientista-1.png"} alt='Banner inicial' />
+                   <Container_2_Modal image={"static/img/footer-menu/cientista-1.png"} />
                </SimpleGrid>
             :
                <SimpleGrid w='90vw' textAlign='center'  columns={3} spacingX={5} spacingY='40px'>
-                  <Image borderRadius='5px'  my='50px' src={"static/img/footer-menu/atendente-1.png"} alt='Banner inicial' />
-                  <Image borderRadius='5px'  my='50px' src={"static/img/footer-menu/production-0.png"} alt='Banner inicial' />
-                  <Image borderRadius='5px'  my='50px' src={"static/img/footer-menu/cientista-1.png"} alt='Banner inicial' />
+                  <Container_2_Modal image={"static/img/footer-menu/atendente-1.png"} />
+                  <Container_2_Modal image={"static/img/footer-menu/production-0.png"} />
+                  <Container_2_Modal image={"static/img/footer-menu/cientista-1.png"} />
                </SimpleGrid>
             }
 
