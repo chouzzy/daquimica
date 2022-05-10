@@ -24,7 +24,7 @@ export function HomeFooter(footerContent) {
          </Box>
 
          <Text fontWeight='bold'>{footerContent.title} </Text>
-         <Text fontSize='0.9rem'>
+         <Text fontSize='0.9rem' fontWeight='500'>
             {footerContent.description}
          </Text>
 
