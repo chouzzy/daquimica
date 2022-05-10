@@ -25,7 +25,7 @@ export function Container_4() {
          textAlign='left'
          >
 
-            <Box minW='90vw' h='50px' fontSize='1.5rem' fontWeight='600'> Nossos serviços </Box>
+            <Box minW='90vw' h='50px' fontSize='1.8rem' fontWeight='700'> Nossos serviços </Box>
 
                <Box fontSize='1.2rem' maxW={['85vw','80vw','75vw', '70vw']}>
                   {servicos}

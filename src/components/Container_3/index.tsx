@@ -24,7 +24,7 @@ export function Container_3() {
          textAlign='left'
          >
 
-            <Box minW='90vw' h='50px' fontSize='1.5rem' fontWeight='600'> Segmentos de atuação </Box>
+            <Box minW='90vw' h='50px' fontSize='1.8rem' fontWeight='600'> Segmentos de atuação </Box>
 
                <Box fontSize='1.2rem' maxW={['85vw','80vw','75vw', '70vw']}>
                   {segmentos}
