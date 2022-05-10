@@ -45,7 +45,7 @@ export function Footer_menu() {
          <HomeFooter title={footerTitle[2]} scrollTag="#serviços" description={footerDescription[2]} image={"static/img/footer-menu/atendentes.png"}/>
          <HomeFooter title={footerTitle[3]} scrollTag="#projetos" description={footerDescription[3]} image={"static/img/footer-menu/cientista.png"}/>
          <HomeFooter title={footerTitle[4]} scrollTag="#Home" description={footerDescription[4]} image={"static/img/footer-menu/menu-5.PNG"}/>
-         teste 1
+         teste 2
       </SimpleGrid>
       </>
          :
