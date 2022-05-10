@@ -15,7 +15,7 @@ export function Navbar() {
    return (
       <Grid w='90vw' py='5' alignItems='baseline' 
       templateColumns={['repeat(2, 1fr)','repeat(2, 1fr)','repeat(2, 1fr)','repeat(8, 1fr)']} 
-      gap={0} textAlign='center' color='datBlue'>
+      gap={0} textAlign='center' color='datBlue' fontWeight='400'>
 
          <GridItem colSpan={1} >
             <Link href=''>
@@ -24,7 +24,7 @@ export function Navbar() {
          </GridItem>
 
          <GridItem colStart={2} colEnd={8} mt='auto' display={['none', 'none', 'none','GridItem']} >
-            <GridItem mx='auto' mt='auto' pb={1} fontSize='1.1rem'>
+            <GridItem mx='auto' mt='auto' pb={1} fontSize='1.3rem'>
                   <HStack spacing={2}>
                      
                      <Slink activeClass="active" to="#Home" spy={true} smooth={true} offset={0} duration={500}>

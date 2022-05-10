@@ -30,10 +30,10 @@ export function Container_3() {
                   {segmentos}
                </Box>
                <Box>
-                  <Text fontSize={['2.6rem','3rem']} mb='auto'>Hair Care</Text>
-                  <Text fontSize={['2.6rem','3rem']} mb='auto'>Skin Care</Text>
-                  <Text fontSize={['2.6rem','3rem']} mb='auto'>Home Care</Text>
-                  <Text fontSize={['2.6rem','3rem']} mb='auto'>Dermocosmetics</Text>
+                  <Text fontSize={['2.6rem','3.1rem']} >Hair Care</Text>
+                  <Text fontSize={['2.6rem','3.1rem']} >Skin Care</Text>
+                  <Text fontSize={['2.6rem','3.1rem']} >Home Care</Text>
+                  <Text fontSize={['2.6rem','3.1rem']} >Dermocosmetics</Text>
                </Box>
                </VStack>
                <Flex mr='auto'  mt='auto' p={4} fontSize='1.2rem' alignItems='center'> 
