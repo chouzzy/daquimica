@@ -27,29 +27,29 @@ export function Container_4() {
 
             <Box minW='90vw' h='50px' fontSize='1.8rem' fontWeight='700'> Nossos serviços </Box>
 
-               <Box fontSize='1.2rem' maxW={['85vw','80vw','75vw', '70vw']}>
+               <Box fontSize='1.3rem' maxW={['85vw','80vw','75vw', '70vw']}>
                   {servicos}
                </Box>
                <Box>
-                  <Text fontSize={['2rem','2.5rem','2.5rem','3rem']} py={3} mb='auto'>ETAPAS:</Text>
+                  <Text fontSize={['1.4rem','1.4rem','1.4rem','3rem']} fontWeight='700' py={3} mb='auto'>ETAPAS:</Text>
 
-                  <Text fontSize={['2rem','2.5rem','2.5rem','1.6rem']} pl={5} py={3} mb='auto'>
+                  <Text fontSize={['1.4rem','1.4rem','1.4rem','1.6rem']} pl={5} py={3} mb='auto'>
                      <b>Briefing e Definição do projeto:</b> Coleta de informação e 
                      entendimento do projeto. O desenvolvimento leva em 
                      consideração particularidades, como ativos, cor, 
                      fragrância e sensorial.
                   </Text>
 
-                  <Text fontSize={['2rem','2.5rem','2.5rem','1.6rem']} pl={5} py={3} mb='auto'>
+                  <Text fontSize={['1.4rem','1.4rem','1.4rem','1.6rem']} pl={5} py={3} mb='auto'>
                      <b> Aprovação de amostras: </b> Enviamos as amostras para aprovação 
                      do pedido solicitado. Caso aprovada, seguirá para as próximas etapas.
                   </Text>
 
-                  <Text fontSize={['2rem','2.5rem','2.5rem','1.6rem']} pl={5} py={3} mb='auto'>
+                  <Text fontSize={['1.4rem','1.4rem','1.4rem','1.6rem']} pl={5} py={3} mb='auto'>
                      <b> Rótulo e embalagem: </b> Definição do modelo, volume e design da embalagem e rótulo.
                   </Text>
 
-                  <Text fontSize={['2rem','2.5rem','2.5rem','1.6rem']} pl={5} py={3} mb='auto'>
+                  <Text fontSize={['1.4rem','1.4rem','1.4rem','1.6rem']} pl={5} py={3} mb='auto'>
                      <b> Produção, Rotulagem e entrega: </b> Etapa em que o produto é 
                      produzido e fica pronto para ser comercializado.
                   </Text>

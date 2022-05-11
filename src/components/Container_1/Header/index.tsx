@@ -19,12 +19,12 @@ export function Navbar() {
 
          <GridItem colSpan={1} >
             <Link href=''>
-               <Image  src={"static/img/daquimica-logo.PNG"} maxW={['100px','100px','100px','100%']} alt='Dan Abramov' />
+               <Image  src={"static/img/blend-logo.png"} maxW={['110px','120px','120px','100%']} alt='Dan Abramov' />
             </Link>
          </GridItem>
 
          <GridItem colStart={2} colEnd={8} mt='auto' display={['none', 'none', 'none','GridItem']} >
-            <GridItem mx='auto' mt='auto' pb={1} fontSize='1.3rem'>
+            <GridItem mx='auto' mt='auto' pb={1} fontSize={['1rem','1rem','1rem','1.2rem']}>
                   <HStack spacing={2}>
                      
                      <Slink activeClass="active" to="#Home" spy={true} smooth={true} offset={0} duration={500}>

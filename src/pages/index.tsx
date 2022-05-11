@@ -10,7 +10,7 @@ export default function Home () {
    return (
       <>
          <Head>
-            <title>Daquimica</title>
+            <title>Blend Química</title>
          </Head>
          <Container_1/>
          <Container_2/>
