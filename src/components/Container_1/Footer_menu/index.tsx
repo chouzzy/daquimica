@@ -5,7 +5,7 @@ import { HomeFooter } from "./Modal";
 
 export function Footer_menu() { 
 
-   const footerTitle = ['A Daquímica', 'Segmentos de atuação', 'Nossos serviços', 'Projetos personalizados','Vídeo institucional']
+   const footerTitle = ['A Blend Química', 'Segmentos de atuação', 'Nossos serviços', 'Projetos personalizados','Vídeo institucional']
    const footerDescription = [
       'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.',
       'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.',
