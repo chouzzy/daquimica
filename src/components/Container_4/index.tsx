@@ -31,7 +31,7 @@ export function Container_4() {
                   {servicos}
                </Box>
                <Box>
-                  <Text fontSize={['1.4rem','1.4rem','1.4rem','3rem']} fontWeight='700' py={3} mb='auto'>ETAPAS:</Text>
+                  <Text fontSize={['1.8rem','1.8rem','1.8rem','1.8rem']} fontWeight='700' py={3} mb='auto'>ETAPAS:</Text>
 
                   <Text fontSize={['1.4rem','1.4rem','1.4rem','1.6rem']} pl={5} py={3} mb='auto'>
                      <b>Briefing e Definição do projeto:</b> Coleta de informação e 
