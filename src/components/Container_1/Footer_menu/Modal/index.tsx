@@ -36,20 +36,28 @@ export function HomeFooter(footerContent) {
          {isDesktopVersion?
          <Modal finalFocusRef={null} closeOnOverlayClick={true} size='full' isOpen={isOpen} onClose={onClose}>
             <ModalOverlay />
-            <ModalContent m='80px' border='1px solid #00000040'  backgroundColor='#3397da10'>
+            <ModalContent mx='80px' my='40px' border='1px solid #00000040'  backgroundColor='#350fdf10'>
                <ModalCloseButton color='white' />
-               <ModalBody>
-                  <Image borderRadius={5} onClick={null} mx='auto' objectFit='cover' src={footerContent.image} alt='Banner inicial' />
+               <ModalBody p='50px'>
+                  {footerContent.scrollTag == '#video'?
+                  <iframe width="100%" height="500px" src="https://www.youtube.com/embed/ijibuXndhqc" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+                  :
+                  <Image borderRadius={5} maxWidth='90%' mx='auto' objectFit='cover' src={footerContent.image} alt='Banner inicial' />
+                  }
                </ModalBody>
             </ModalContent>
          </Modal>
          :
          <Modal closeOnOverlayClick={true} size='xl' isOpen={isOpen} onClose={onClose}>
             <ModalOverlay />
-            <ModalContent my='auto'  backgroundColor='#3397da10'>
+            <ModalContent my='auto' border='1px solid #00000040' backgroundColor='#546ca440'>
                <ModalCloseButton  color='white' />
-               <ModalBody>
+               <ModalBody p='50px'>
+                  {footerContent.scrollTag == '#video'?
+                  <iframe width="100%" height="250px" src="https://www.youtube.com/embed/ijibuXndhqc" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+                  :
                   <Image borderRadius={5} maxWidth='90%' mx='auto' objectFit='cover' src={footerContent.image} alt='Banner inicial' />
+                  }
                </ModalBody>
             </ModalContent>
          </Modal>
