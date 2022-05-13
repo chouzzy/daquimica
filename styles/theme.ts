@@ -7,7 +7,7 @@ export const theme = extendTheme({
       body:'Andes '
    },
    colors: {
-     datBlue: "#55808c",
+     datBlue: "#516BA5",
      datGreen:"#a5d320",
      datGray: "#d1d3d4"
    },
