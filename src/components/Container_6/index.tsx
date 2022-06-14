@@ -1,15 +1,31 @@
-import { Box, Container, Flex, Grid, GridItem, Image, SimpleGrid, Text, Link, useBreakpointValue, Input, Stack ,VStack, InputGroup, InputLeftAddon, Button } from "@chakra-ui/react";
+import { Box, Container, Flex, Grid, GridItem, Image, SimpleGrid, Text, Link, useBreakpointValue, Input, Stack ,VStack, InputGroup, InputLeftAddon, Button, FormControl} from "@chakra-ui/react";
 import React from "react";
 import { BsInstagram } from "react-icons/bs";
 import { ImFacebook2 } from "react-icons/im"
 import { RiWhatsappFill, RiMenuLine } from "react-icons/ri";
 import { SiLinkedin } from "react-icons/si";
 import { FooterRights } from "./Footer_rights";
+import { useForm } from 'react-hook-form'
 
 export function Container_6() { 
-   const [value, setValue] = React.useState('')
-   const handleChange = (event) => setValue(event.target.value)
- 
+
+      const {
+        handleSubmit,
+        register,
+        formState: { errors, isSubmitting },
+      } = useForm()
+    
+      function onSubmit(values) {
+        return new Promise(() => {
+          setTimeout(() => {
+            fetch('/api/mail', {
+               method:'post',
+               body:JSON.stringify(values)
+            })
+          }, 200)
+        })
+      }
+      
    const isTabletVersion = useBreakpointValue({ 
       base: false,
       sm: true,
@@ -66,36 +82,39 @@ export function Container_6() {
                <Stack spacing={2} w='100%' textAlign='left'>
                   <Box  fontSize='1.2rem' fontWeight='600'> Envie-nos uma mensagem </Box>
                   
+                  <form onSubmit={handleSubmit(onSubmit)}>
                   <Text>Empresa/ Pessoa:</Text>
                   <Input
-                  color='red'
+                  type='name'
                   my='10px'
-                  value={value}
-                  onChange={handleChange}
                   placeholder='Digite o nome de sua empresa'
                   size='sm'
                   w='100%'
+                  {...register("Empresa")}
                   />
                   <Text >Assunto:</Text>
                   <Input
-                  value={value}
-                  onChange={handleChange}
+                  type='text'
+                  my='10px'
                   placeholder='Assunto'
                   size='sm'
                   w='100%'
+                  {...register("Assunto")}
                   />
 
                   <Text >Mensagem:</Text>
                   <Input
-                  value={value}
-                  onChange={handleChange}
+                  type='text'
+                  my='10px'
                   placeholder='Mensagem'
                   size='sm'
                   w='100%'
+                  {...register("Mensagem")}
                   />
-                  <Button type='submit'>
+                  <Button w='100%' type='submit'>
                      Enviar
                   </Button>
+                  </form>
                </Stack>
             </GridItem>
          </Grid>
@@ -135,36 +154,39 @@ export function Container_6() {
                <Stack spacing={2} w='100%' textAlign='left'>
                   <Box  fontSize='1.2rem' fontWeight='600'> Envie-nos uma mensagem </Box>
                   
+                  <form onSubmit={handleSubmit(onSubmit)}>
                   <Text>Empresa/ Pessoa:</Text>
                   <Input
-                  color='red'
+                  type='name'
                   my='10px'
-                  value={value}
-                  onChange={handleChange}
                   placeholder='Digite o nome de sua empresa'
                   size='sm'
                   w='100%'
+                  {...register("Empresa")}
                   />
                   <Text >Assunto:</Text>
                   <Input
-                  value={value}
-                  onChange={handleChange}
+                  type='text'
+                  my='10px'
                   placeholder='Assunto'
                   size='sm'
                   w='100%'
+                  {...register("Assunto")}
                   />
 
                   <Text >Mensagem:</Text>
                   <Input
-                  value={value}
-                  onChange={handleChange}
+                  type='text'
+                  my='10px'
                   placeholder='Mensagem'
                   size='sm'
                   w='100%'
+                  {...register("Mensagem")}
                   />
-                  <Button type='submit'>
+                  <Button  w='100%' type='submit'>
                         Enviar
                   </Button>
+                  </form>
                </Stack>
             </GridItem>
          </Grid>
@@ -207,36 +229,40 @@ export function Container_6() {
                   <Stack spacing={2} w='100%' textAlign='left'>
                      <Box  fontSize='1.2rem' fontWeight='600'> Envie-nos uma mensagem </Box>
                      
-                     <Text>Empresa/ Pessoa:</Text>
-                     <Input
-                     color='red'
-                     my='10px'
-                     value={value}
-                     onChange={handleChange}
-                     placeholder='Digite o nome de sua empresa'
-                     size='sm'
-                     w='100%'
-                     />
-                     <Text >Assunto:</Text>
-                     <Input
-                     value={value}
-                     onChange={handleChange}
-                     placeholder='Assunto'
-                     size='sm'
-                     w='100%'
-                     />
+                     
+                     <form onSubmit={handleSubmit(onSubmit)}>
+                        <Text>Empresa/ Pessoa:</Text>
+                        <Input
+                        type='name'
+                        my='10px'
+                        placeholder='Digite o nome de sua empresa'
+                        size='sm'
+                        w='100%'
+                        {...register("Empresa")}
+                        />
+                        <Text >Assunto:</Text>
+                        <Input
+                        type='text'
+                        placeholder='Assunto'
+                        size='sm'
+                        w='100%'
+                        {...register("Assunto")}
+                        />
 
-                     <Text >Mensagem:</Text>
-                     <Input
-                     value={value}
-                     onChange={handleChange}
-                     placeholder='Mensagem'
-                     size='sm'
-                     w='100%'
-                     />
-                     <Button type='submit'>
-                        Enviar
-                     </Button>
+                        <Text >Mensagem:</Text>
+                        <Input
+                        type='text'
+                        placeholder='Mensagem'
+                        size='sm'
+                        w='100%'
+                        {...register("Mensagem")}
+                        />
+                        
+                        <Button w='100%' my={1} type='submit'>
+                           Enviar
+                        </Button>
+                     </form>
+
                   </Stack>
                </GridItem>
             </Grid>
