@@ -40,7 +40,7 @@ export function HomeFooter(footerContent) {
                <ModalCloseButton color='white' />
                <ModalBody p='50px'>
                   {footerContent.scrollTag == '#video'?
-                  <iframe width="100%" height="500px" src="https://www.youtube.com/embed/ijibuXndhqc" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+                  <iframe width="100%" height="500px" src="https://www.youtube.com/embed/Khg27HTFJ-0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
                   :
                   <Image borderRadius={5} maxWidth='90%' mx='auto' objectFit='cover' src={footerContent.image} alt='Banner inicial' />
                   }
@@ -54,7 +54,7 @@ export function HomeFooter(footerContent) {
                <ModalCloseButton  color='white' />
                <ModalBody p='50px'>
                   {footerContent.scrollTag == '#video'?
-                  <iframe width="100%" height="250px" src="https://www.youtube.com/embed/ijibuXndhqc" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+                  <iframe width="100%" height="250px" src="https://www.youtube.com/embed/Khg27HTFJ-0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
                   :
                   <Image borderRadius={5} maxWidth='90%' mx='auto' objectFit='cover' src={footerContent.image} alt='Banner inicial' />
                   }

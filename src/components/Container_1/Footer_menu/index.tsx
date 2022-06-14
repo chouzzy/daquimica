@@ -7,11 +7,11 @@ export function Footer_menu() {
 
    const footerTitle = ['A Blend Química', 'Segmentos de atuação', 'Nossos serviços', 'Projetos personalizados','Vídeo institucional']
    const footerDescription = [
-      'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.',
-      'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.',
-      'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.',
-      'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.',
-      'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.']
+      'Empresa fundada para levar comprometimento, eficácia e qualidade aos nossos clientes.',
+      'Estamos preparados para desenvolver projetos diversificados na área cosmética .',
+      'Oferecemos um processo personalizado e bem estruturado para cada projeto.',
+      'Ficamos dispostos a fazer com muito comprometimento cada ideia um projeto único.',
+      'Nos acompanhe nessa jornada por dentro de nossa fábrica!']
    
    const isDesktopVersion = useBreakpointValue( { 
       base: false,
