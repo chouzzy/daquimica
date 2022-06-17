@@ -32,7 +32,7 @@ export function Container_2() {
                </Box>
             {isMobileVersion? 
                <SimpleGrid w='90vw' textAlign='center'  columns={1} spacingX={5} spacingY='40px'>
-                   <Container_2_Modal image={"static/img/footer-menu/cientista-1.png"} />
+                   <Container_2_Modal image={"static/img/footer-menu/about-1.png"} />
                </SimpleGrid>
             :
                <SimpleGrid w='90vw' textAlign='center'  columns={3} spacingX={5} spacingY='40px'>

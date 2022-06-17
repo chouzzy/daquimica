@@ -28,9 +28,13 @@ export function HomeFooter(footerContent) {
             {footerContent.description}
          </Text>
 
+         {footerContent.title == 'Vídeo institucional'?
+         ''
+         :
          <Slink activeClass="active" to={footerContent.scrollTag} spy={true} smooth={true} offset={0} duration={500}>
             <Text _hover={{color:'teal.400', transition:'300ms'}} cursor='pointer' fontWeight='bold'> Saiba mais...</Text>
          </Slink>
+         }
 
 
          {isDesktopVersion?
