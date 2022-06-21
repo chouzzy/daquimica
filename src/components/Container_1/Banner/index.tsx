@@ -5,7 +5,7 @@ export function Banner() {
    const { isOpen, onOpen, onClose } = useDisclosure()
 
    const iframeHeight = useBreakpointValue({
-      base: '200px', 
+      base: '300px', 
       sm: '400px', 
       md: '500px',
       lg: '500px',
@@ -14,7 +14,7 @@ export function Banner() {
    return (
       <>
       
-      <Container w='90vw' borderRadius={4} my={4} h={['20vh','40vh','50vh','50vh']} cursor='pointer' color='datGreen' alignItems='center' centerContent bgImage='static/img/banner_index_inv.png' fontSize='5rem' _hover={{color: "#c4302b", transition:'1000ms'}} onClick={onOpen}>
+      <Container w='90vw' borderRadius={4} my={4} h={['28vh','40vh','50vh','50vh']} cursor='pointer' color='datGreen' alignItems='center' centerContent bgImage='static/img/banner_index_inv.png' fontSize='5rem' _hover={{color: "#c4302b", transition:'1000ms'}} onClick={onOpen}>
          <Flex my='auto' display='inline'>
             <GrYoutube/>
          </Flex>
