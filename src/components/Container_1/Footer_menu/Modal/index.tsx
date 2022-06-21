@@ -20,7 +20,7 @@ export function HomeFooter(footerContent) {
       >
 
          <Box >
-            <Image onClick={onOpen} cursor='pointer' objectFit='cover' src={footerContent.image} alt='Banner inicial' />
+            <Image borderRadius={4} onClick={onOpen} cursor='pointer' objectFit='cover' src={footerContent.image} alt='Banner inicial' />
          </Box>
 
          <Text fontWeight='bold'>{footerContent.title} </Text>

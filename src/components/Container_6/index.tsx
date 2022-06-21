@@ -50,9 +50,11 @@ export function Container_6() {
 
    return (
       <>
-      
-      <Box h='30vh' bgColor='#00000046'>
-      </Box>
+      {isDesktopVersion?
+      <Box h='30vh' bgColor='#00000046'></Box>
+      :
+      ''
+      }
       <Container id='#footer' maxW='100vw' color='datBlue' bg='white' p='0' m='0' centerContent>
 
          {isMobileVersion?
