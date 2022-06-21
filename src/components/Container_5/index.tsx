@@ -19,17 +19,21 @@ export function Container_5() {
          py={5}
          my={5}
          w='90vw'
-         spacing={1}
-         align='stretch'
+         spacing={4}
          textAlign='left'
          >
 
-            <Box minW='90vw' h='50px' fontSize='1.8rem' fontWeight='600'> Projetos personalizados </Box>
-               <Box fontSize='1.2rem' maxW={['85vw','80vw','75vw', '70vw']}>
+               <Box minW='90vw' h='50px'  fontSize='1.8rem' fontWeight='600'> Projetos personalizados </Box>
+         
+               <Box fontSize='1.2rem'>
                   {projetos}
                </Box>
+               
+               {/* <Box fontSize='1.2rem' mx='auto' w='64vw' p={8}>
+                  <iframe width="100%" height="400px" src="https://www.youtube.com/embed/Khg27HTFJ-0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+               </Box> */}
          </VStack>
-         <Flex mr='auto'  mt='auto' p={4} fontSize='1.2rem' alignItems='center'> 
+         <Flex mr='auto' mt='auto' p={4} fontSize='1.2rem' alignItems='center'> 
 
             <Slink activeClass="active" to="#Home" spy={true} smooth={true} offset={0} duration={500}>
                <BsArrowUpCircle cursor='pointer' fontSize='2rem' />  

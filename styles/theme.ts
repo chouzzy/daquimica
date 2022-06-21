@@ -15,7 +15,10 @@ export const theme = extendTheme({
      global: {
        // styles for the `body`
         body: {
-          bg: 'white',
+          bgRepeat:'no-repeat',
+          bgSize:'100%',
+          bgAttachment:'fixed',
+          bgImage: "static/img/folhas.jpg",
           color: 'gray.900',
           
         },
