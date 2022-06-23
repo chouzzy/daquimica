@@ -233,7 +233,7 @@ export function Container_6() {
 
                <GridItem colStart={8} colEnd={13} mt='auto'> 
                   <Stack spacing={2} w='100%' textAlign='left'>
-                     <Box  fontSize='1.2rem' fontWeight='600'> Envie-nos uma mensagem </Box>
+                     <Box fontSize='1.2rem' fontWeight='600'> Envie-nos uma mensagem </Box>
                      
                      
                      <form onSubmit={handleSubmit(onSubmit)}>

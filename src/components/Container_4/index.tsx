@@ -41,8 +41,7 @@ export function Container_4() {
                   </Text>
 
                   <Text fontSize={['1.4rem','1.4rem','1.4rem','1.6rem']} pl={5} py={3} mb='auto'>
-                     <b> Aprovação de amostras: </b> Enviamos as amostras para aprovação 
-                     do pedido solicitado. Caso aprovada, seguirá para as próximas etapas.
+                     <b> Aprovação de amostras: </b> Enviamos as amostras ao cliente para aprovação do pedido solicitado.
                   </Text>
 
                   <Text fontSize={['1.4rem','1.4rem','1.4rem','1.6rem']} pl={5} py={3} mb='auto'>
