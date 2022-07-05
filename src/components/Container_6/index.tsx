@@ -22,7 +22,7 @@ export function Container_6() {
                method:'post',
                body:JSON.stringify(values)
             })
-          }, 200)
+          }, 2000)
         })
       }
       

@@ -14,7 +14,8 @@ export function Container_3() {
 
    const segmentos = 'Com o nosso time P&D e nossa linha de produção, estamos preparados para desenvolver e produzir formulações personalizadas com complexidades e formas diferentes.'
    return (
-      <Container id='#segmentos' maxW='100vw' minH='100vh' color='white' bg='datGreen' p='0' m='0' centerContent>
+      <Container id='#segmentos' maxW='100vw' minH='100vh' color='white' backgroundImage={"static/img/blend-3.gif"} bgSize='cover' p='0' m='0' centerContent>
+
          <VStack
          py={5}
          my={5}

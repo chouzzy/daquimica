@@ -6,6 +6,7 @@ import { Container_3 } from '../components/Container_3'
 import { Container_4 } from '../components/Container_4'
 import { Container_5 } from '../components/Container_5'
 import { Container_6 } from '../components/Container_6'
+
 export default function Home () {
    return (
       <>
